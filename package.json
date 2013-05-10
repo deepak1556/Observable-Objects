@@ -1,0 +1,29 @@
+{
+    "name": "observable-objects",
+    "version": "0.1",
+    "author": "Robo <hop2deep@gmail.com>",
+    "description": "implementation of object observers using PubSub",
+    "main": "./src/obsObj.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/deepak1556/observable-objects"
+    },
+    "keywords": [
+        "pub sub",
+        "publish",
+        "subscribe",
+        "observer",
+        "mediator",
+        "events",
+        "decoupling"
+    ],
+    "devDependencies": {
+        "jshint": "1.0.x",
+        "spooks": "0.5.x",
+        "jake": "0.5.x"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": "jake test"
+    }
+}
